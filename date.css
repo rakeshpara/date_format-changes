@@ -1,0 +1,79 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+body{
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #062d8c, #0070d1, #00a9ce, #00db88, #b1ff03);}
+#c24hrs,#c12hrs{
+    width: 80%; height: 60vh;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#c12hrs{
+    display: none;
+}
+#but{
+    position: absolute;
+    bottom: 40px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    mix-blend-mode: screen;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.444);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.444);
+}
+#time1,#time2{
+    font-size: 120px;
+    color: white;
+    position: absolute;
+    top:20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+}
+#day1,#day2{
+    font-size: 50px;
+    color: #00bf72;
+    position: absolute;
+    top: 250px;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+}
+#sec1,#sec2{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 185px;
+    bottom: 120px;   
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+}
+#date1,#date2{
+    font-size: 60px;
+    color: #a8eb12;
+    position: absolute;
+    top: 180px;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+}
+#ampm{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.444);
+}
+
